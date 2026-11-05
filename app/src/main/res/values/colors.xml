@@ -1,0 +1,45 @@
+<resources>
+    <color name="primary">#AD1017</color>
+    <color name="dashboard_primary">#A9161D</color>
+    <color name="primary_end">#E34B17</color>
+    <color name="accent">#F05A16</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="surface">#F2F9F9</color>
+    <color name="dashboard_surface">#EDF5F5</color>
+    <color name="card">#FFFFFF</color>
+    <color name="on_surface">#18212B</color>
+    <color name="on_surface_variant">#718096</color>
+    <color name="dashboard_secondary">#788696</color>
+    <color name="outline">#E0E6EA</color>
+    <color name="dashboard_outline">#E3E9EA</color>
+    <color name="field_outline">#C9CED5</color>
+    <color name="divider">#E5E9EC</color>
+    <color name="portal_container">#E9F0F3</color>
+    <color name="portal_selected">#AD1017</color>
+    <color name="portal_unselected">#71869A</color>
+    <color name="field">#DDE9FA</color>
+    <color name="field_border">#D6E4F5</color>
+    <color name="icon_tint">#71869A</color>
+    <color name="verification_green">#159B79</color>
+    <color name="wallet_icon_bg">#FFF4D9</color><color name="wallet_icon">#A75C24</color>
+    <color name="stores_icon_bg">#FCE9EA</color><color name="stores_icon">#A9161D</color>
+    <color name="voucher_icon_bg">#F3E9FA</color><color name="voucher_icon">#7133A7</color>
+    <color name="suppliers_icon_bg">#E7F1FD</color><color name="suppliers_icon">#2767B7</color>
+    <color name="wholesaler_icon_bg">#FBE6E4</color><color name="wholesaler_icon">#B52A27</color>
+    <color name="account_payments_icon_bg">#FFF3D9</color><color name="account_payments_icon">#95601F</color>
+    <color name="sales_icon_bg">#E5F8F8</color><color name="sales_icon">#166B7C</color>
+    <color name="commissions_icon_bg">#FFF1E2</color><color name="commissions_icon">#A64A23</color>
+    <color name="financial_icon_bg">#E4F7F0</color><color name="financial_icon">#167B68</color>
+    <color name="reports_icon_bg">#E2F8EF</color><color name="reports_icon">#17805E</color>
+    <color name="deposit_icon_bg">#FFF5D8</color><color name="deposit_icon">#9B5A26</color>
+    <color name="transfers_icon_bg">#E4F7EC</color><color name="transfers_icon">#148269</color>
+    <color name="pos_users_icon_bg">#E9EAFE</color><color name="pos_users_icon">#4F46A5</color>
+    <color name="website_users_icon_bg">#E5F6FA</color><color name="website_users_icon">#1B7190</color>
+    <color name="devices_icon_bg">#ECF1F4</color><color name="devices_icon">#536778</color>
+    <color name="otp_icon_bg">#FFF7D9</color><color name="otp_icon">#A16B0F</color>
+    <color name="orders_icon_bg">#FCE9EE</color><color name="orders_icon">#AA2440</color>
+    <color name="banking_icon_bg">#1B2430</color><color name="banking_icon">#F0B323</color>
+    <color name="banking_card">#101722</color>
+    <color name="header_panel">#F3F8F8</color>
+    <color name="launcher_background">#FFFFFF</color>
+</resources>

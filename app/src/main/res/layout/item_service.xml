@@ -1,0 +1,9 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/service_card" android:layout_width="match_parent" android:layout_height="@dimen/service_card_height" android:layout_margin="@dimen/service_card_spacing" android:clickable="true" android:focusable="true" app:cardBackgroundColor="@color/card" app:cardCornerRadius="20dp" app:cardElevation="3dp" app:strokeColor="@color/dashboard_outline" app:strokeWidth="1dp">
+    <LinearLayout android:id="@+id/service_card_content" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:orientation="vertical" android:padding="12dp">
+        <FrameLayout android:id="@+id/service_icon_container" android:layout_width="@dimen/service_icon_size" android:layout_height="@dimen/service_icon_size" android:background="@drawable/service_icon_background">
+            <ImageView android:id="@+id/service_icon" android:layout_width="26dp" android:layout_height="26dp" android:layout_gravity="center" android:contentDescription="@null" android:scaleType="fitCenter" />
+        </FrameLayout>
+        <TextView android:id="@+id/service_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:ellipsize="end" android:gravity="center" android:maxLines="2" android:textColor="@color/on_surface" android:textSize="14sp" android:textStyle="bold" />
+        <TextView android:id="@+id/service_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:ellipsize="end" android:gravity="center" android:maxLines="1" android:textColor="@color/dashboard_secondary" android:textSize="12sp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

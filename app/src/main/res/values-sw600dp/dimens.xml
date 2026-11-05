@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="login_screen_horizontal_padding">96dp</dimen>
+    <dimen name="login_screen_top_padding">32dp</dimen>
+    <dimen name="login_logo_width">132dp</dimen>
+    <dimen name="login_card_padding_horizontal">28dp</dimen>
+    <dimen name="login_card_padding_vertical">28dp</dimen>
+</resources>

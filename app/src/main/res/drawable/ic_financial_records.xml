@@ -1,0 +1,1 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24"><path android:fillColor="@color/financial_icon" android:pathData="M19 7v4l-2-2H7.8A4 4 0 0 0 4 12H2a6 6 0 0 1 5.8-5H17l2-2zm3 5a6 6 0 0 1-5.8 5H7l-2 2v-4l2 2h9.2a4 4 0 0 0 3.8-3h2z"/></vector>

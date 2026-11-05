@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="login_screen_horizontal_padding">220dp</dimen>
+</resources>

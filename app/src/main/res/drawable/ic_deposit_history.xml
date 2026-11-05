@@ -1,0 +1,1 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24"><path android:fillColor="@color/deposit_icon" android:pathData="M3 5h18v14H3V5zm2 2v10h14V7H5zm2 2h7v2H7zm0 4h10v2H7zm10-3h2v5h-2z"/></vector>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Top it Up Retailer</string>
+    <string name="tagline">Convenience at your fingertips</string>
+
+    <string name="login">Login to Retailer Portal</string>
+    <string name="login_supplier">Login to Supplier Portal</string>
+    <string name="portal_retailer">Retailer Portal</string>
+    <string name="portal_supplier">Supplier Portal</string>
+
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+
+    <string name="forgot_password">FORGOTTEN YOUR PASSWORD?</string>
+    <string name="or_divider">OR</string>
+    <string name="create_account">CREATE AN ACCOUNT</string>
+    <string name="login_footer">© 2026 Top it Up. E&amp;OE. All Rights Reserved</string>
+
+    <string name="dashboard_title">Banking &amp; Store Operations</string>
+    <string name="dashboard_subtitle">All Top it Up management tools mapped to your account</string>
+    <string name="coming_soon">Coming Soon</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="login_screen_top_padding">20dp</dimen>
+    <dimen name="login_screen_bottom_padding">12dp</dimen>
+    <dimen name="login_logo_top_margin">2dp</dimen>
+    <dimen name="login_card_margin_top">10dp</dimen>
+    <dimen name="login_card_padding_horizontal">28dp</dimen>
+    <dimen name="login_card_padding_vertical">18dp</dimen>
+    <dimen name="login_label_margin_top">14dp</dimen>
+    <dimen name="login_password_label_margin_top">12dp</dimen>
+    <dimen name="login_field_margin_top">6dp</dimen>
+    <dimen name="login_button_margin_top">14dp</dimen>
+    <dimen name="login_forgot_margin_top">16dp</dimen>
+    <dimen name="login_divider_margin_top">12dp</dimen>
+    <dimen name="login_create_margin_top">12dp</dimen>
+    <dimen name="login_footer_margin_top">10dp</dimen>
+</resources>

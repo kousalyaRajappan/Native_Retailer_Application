@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_navigation_height"
+    android:background="@color/card"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:elevation="@dimen/bottom_navigation_elevation"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/tab_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icon_home"
+            android:layout_width="@dimen/bottom_navigation_icon_size"
+            android:layout_height="@dimen/bottom_navigation_icon_size"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_home" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/label_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bottom_navigation_icon_label_spacing"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Home"
+            android:textColor="@color/dashboard_primary"
+            app:autoSizeMaxTextSize="@dimen/bottom_navigation_label_size"
+            app:autoSizeMinTextSize="@dimen/bottom_navigation_label_min_size"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_wholesale_pay"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icon_wholesale_pay"
+            android:layout_width="@dimen/bottom_navigation_icon_size"
+            android:layout_height="@dimen/bottom_navigation_icon_size"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_card" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/label_wholesale_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bottom_navigation_icon_label_spacing"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Wholesale Pay"
+            android:textColor="@color/dashboard_secondary"
+            app:autoSizeMaxTextSize="@dimen/bottom_navigation_label_size"
+            app:autoSizeMinTextSize="@dimen/bottom_navigation_label_min_size"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/tab_services"
+            android:layout_width="@dimen/bottom_navigation_center_button_size"
+            android:layout_height="@dimen/bottom_navigation_center_button_size"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="Supplier orders"
+            android:focusable="true"
+            android:translationY="@dimen/bottom_navigation_center_offset"
+            app:cardBackgroundColor="@color/dashboard_primary"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="6dp"
+            app:strokeWidth="0dp">
+            <ImageView
+                android:layout_width="@dimen/bottom_navigation_center_icon_size"
+                android:layout_height="@dimen/bottom_navigation_center_icon_size"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_truck"
+                android:tint="@color/on_primary" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_balance"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icon_balance"
+            android:layout_width="@dimen/bottom_navigation_icon_size"
+            android:layout_height="@dimen/bottom_navigation_icon_size"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_wallet" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/label_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bottom_navigation_icon_label_spacing"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Balance"
+            android:textColor="@color/dashboard_secondary"
+            app:autoSizeMaxTextSize="@dimen/bottom_navigation_label_size"
+            app:autoSizeMinTextSize="@dimen/bottom_navigation_label_min_size"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_account"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icon_account"
+            android:layout_width="@dimen/bottom_navigation_icon_size"
+            android:layout_height="@dimen/bottom_navigation_icon_size"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_account" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/label_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bottom_navigation_icon_label_spacing"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="Account"
+            android:textColor="@color/dashboard_secondary"
+            app:autoSizeMaxTextSize="@dimen/bottom_navigation_label_size"
+            app:autoSizeMinTextSize="@dimen/bottom_navigation_label_min_size"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+</LinearLayout>

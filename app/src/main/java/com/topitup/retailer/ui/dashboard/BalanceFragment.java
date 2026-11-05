@@ -1,0 +1,3 @@
+package com.topitup.retailer.ui.dashboard;
+import android.os.Bundle;import android.view.*;import android.widget.*;import androidx.annotation.*;import androidx.fragment.app.Fragment;import com.topitup.retailer.R;
+public class BalanceFragment extends Fragment {@Nullable @Override public View onCreateView(@NonNull LayoutInflater i,@Nullable ViewGroup c,@Nullable Bundle b){TextView t=new TextView(requireContext());t.setText("Balance · Coming Soon");t.setTextSize(22);t.setGravity(Gravity.CENTER);t.setTextColor(getResources().getColor(R.color.on_surface));t.setBackgroundColor(getResources().getColor(R.color.surface));return t;}}

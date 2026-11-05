@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/dashboard_surface" android:orientation="vertical">
+    <include layout="@layout/view_account_header" />
+    <LinearLayout android:id="@+id/dashboard_heading" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:paddingStart="@dimen/dashboard_title_horizontal_padding" android:paddingTop="@dimen/dashboard_title_top_padding" android:paddingEnd="@dimen/dashboard_title_horizontal_padding" android:paddingBottom="12dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/dashboard_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Banking &amp; Store Operations" android:textColor="@color/on_surface" android:textSize="20sp" android:textStyle="bold" />
+            <TextView android:id="@+id/dashboard_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="All Top it Up management tools mapped to your account" android:textColor="@color/dashboard_secondary" android:textSize="13sp" />
+        </LinearLayout>
+        <TextView android:id="@+id/active_services" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:background="@drawable/dashboard_count_pill" android:paddingStart="10dp" android:paddingTop="7dp" android:paddingEnd="10dp" android:paddingBottom="7dp" android:text="18 Services Active" android:textColor="@color/on_surface" android:textSize="12sp" android:textStyle="bold" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/services_grid" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipChildren="false" android:clipToPadding="false" android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingBottom="12dp" />
+</LinearLayout>

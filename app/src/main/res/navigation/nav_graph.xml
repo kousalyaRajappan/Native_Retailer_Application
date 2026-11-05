@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph" app:startDestination="@id/home_fragment">
+<fragment android:id="@+id/home_fragment" android:name="com.topitup.retailer.ui.dashboard.HomeFragment" android:label="Home" />
+<fragment android:id="@+id/wholesale_pay_fragment" android:name="com.topitup.retailer.ui.dashboard.WholesalePayFragment" android:label="Wholesale Pay" />
+<fragment android:id="@+id/balance_fragment" android:name="com.topitup.retailer.ui.dashboard.BalanceFragment" android:label="Balance" />
+<fragment android:id="@+id/account_fragment" android:name="com.topitup.retailer.ui.dashboard.AccountFragment" android:label="Account" />
+<fragment android:id="@+id/transfer_to_wallet_fragment" android:name="com.topitup.retailer.ui.services.TransferToWalletFragment" android:label="Transfer to Wallet" />
+<fragment android:id="@+id/transfer_to_stores_fragment" android:name="com.topitup.retailer.ui.services.TransferToStoresFragment" android:label="Transfer to Stores" />
+<fragment android:id="@+id/top_it_up_voucher_fragment" android:name="com.topitup.retailer.ui.services.TopItUpVoucherFragment" android:label="Top It Up Voucher" />
+<fragment android:id="@+id/pay_suppliers_fragment" android:name="com.topitup.retailer.ui.services.PaySuppliersFragment" android:label="Pay Suppliers" />
+<fragment android:id="@+id/wholesaler_payments_fragment" android:name="com.topitup.retailer.ui.services.WholesalerPaymentsFragment" android:label="Wholesaler Payments" />
+<fragment android:id="@+id/account_payments_fragment" android:name="com.topitup.retailer.ui.services.AccountPaymentsFragment" android:label="Account Payments" />
+<fragment android:id="@+id/sales_transactions_fragment" android:name="com.topitup.retailer.ui.services.SalesTransactionsFragment" android:label="Sales Transactions" />
+<fragment android:id="@+id/commissions_invoices_fragment" android:name="com.topitup.retailer.ui.services.CommissionsInvoicesFragment" android:label="Commissions &amp; Invoices" />
+<fragment android:id="@+id/financial_records_fragment" android:name="com.topitup.retailer.ui.services.FinancialRecordsFragment" android:label="Financial Records" />
+<fragment android:id="@+id/shift_z_reports_fragment" android:name="com.topitup.retailer.ui.services.ShiftZReportsFragment" android:label="Shift &amp; Z-Reports" />
+<fragment android:id="@+id/deposit_history_fragment" android:name="com.topitup.retailer.ui.services.DepositHistoryFragment" android:label="Deposit History" />
+<fragment android:id="@+id/money_transfers_fragment" android:name="com.topitup.retailer.ui.services.MoneyTransfersFragment" android:label="Money Transfers" />
+<fragment android:id="@+id/pos_users_fragment" android:name="com.topitup.retailer.ui.services.PosUsersFragment" android:label="POS Users" />
+<fragment android:id="@+id/website_users_fragment" android:name="com.topitup.retailer.ui.services.WebsiteUsersFragment" android:label="Website Users" />
+<fragment android:id="@+id/my_devices_fragment" android:name="com.topitup.retailer.ui.services.MyDevicesFragment" android:label="My Devices" />
+<fragment android:id="@+id/view_otp_fragment" android:name="com.topitup.retailer.ui.services.ViewOtpFragment" android:label="View OTP" />
+<fragment android:id="@+id/supplier_orders_fragment" android:name="com.topitup.retailer.ui.services.SupplierOrdersFragment" android:label="Supplier Orders" />
+<fragment android:id="@+id/banking_details_fragment" android:name="com.topitup.retailer.ui.services.BankingDetailsFragment" android:label="Banking Details" />
+</navigation>
